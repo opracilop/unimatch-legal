@@ -1,24 +1,9 @@
-# unimatch-legal
+# UniMatch legal
 
-Public GitHub Pages site for UniMatch legal pages (privacy policy only).  
-**Does not contain the UniMatch app source code.**
+Public pages for the UniMatch campus dating app.
 
-## Live URL (after Pages is enabled)
+**Privacy policy:** https://opracilop.github.io/unimatch-legal/
 
-`https://<your-github-username>.github.io/unimatch-legal/`
+(If that link 404s, replace `opracilop` with your GitHub username.)
 
-Use that URL in Google Play Console → App content → Privacy policy.
-
-## Publish
-
-```powershell
-cd C:\Users\polic\Documents\unimatch-legal
-git init
-git add .
-git commit -m "Add UniMatch privacy policy for Play Store"
-gh repo create unimatch-legal --public --source=. --remote=origin --push
-```
-
-Then on GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `/ (root)` → Save**.
-
-Wait ~1 minute and open the Pages URL.
+This repository only contains legal/public web pages. It does **not** include the UniMatch mobile app source code.
